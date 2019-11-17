@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Football Pool App</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+
+        <h1>Simmons Family Football Pool</h1>
+
+        <ul>
+            <% for(let i = 0; i < poolData.length; i++) { %>
+            <li>
+                <span class="poolPerson"><%= poolData[i].person %></span>
+                <span class="winsForPerson"> has <%= poolData[i].totalWins %> wins.</span>
+            </li>
+            <% } %>
+        </ul>
+
+        <form action="addToPool" method="post">
+            <label for="personLabel">New Entry Name:</label>
+            <input id="personLabel" type="text" name="person">
+            <label for="winsLabel">New Entry's Total Wins:</label>
+            <input id="winsLabel" type="number" name="totalWins" value="0" min="0" max="20">
+            <button type="submit">Submit Entry</button>
+        </form>
+
+        <p id="currentWinner"></p>
+
+        <button id="checkWinner">Check the Winner</button>
+        <button id="clearPool">Clear Pool</button>
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

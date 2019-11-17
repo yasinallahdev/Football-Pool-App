@@ -1,0 +1,18 @@
+{
+  "name": "crud-express-mongodb",
+  "version": "0.0.1",
+  "description": "Resilient Coders CRUD/Express/MongoDB Homewrk Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ya Sin Supreme Allah",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "nodemon": "^1.19.4"
+  }
+}

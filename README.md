@@ -10,16 +10,17 @@ If multiple people are tied for most winning teams, the winner is chosen randoml
 
 **How to install:**  
 
-Clone the repo  
+1: Clone the repo  
 
-navigate to the repo's directory on disk  
+2: Navigate to the repo's directory on disk  
 
-run `npm install`  
+3: Run `npm install` in your terminal  
+
 
 
 **How to run:** 
 
-run `node app.js`  
+1: run `node app.js` in your terminal  
 
-visit `localhost:8080` in your browser  
+2: visit `localhost:8080` in your browser  
 

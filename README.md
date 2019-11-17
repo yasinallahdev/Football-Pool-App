@@ -8,7 +8,7 @@ by which contestant picked the most winning teams.
 
 If multiple people are tied for most winning teams, the winner is chosen randomly.
 
-How to install:  
+**How to install:**  
 
 Clone the repo  
 
@@ -17,7 +17,7 @@ navigate to the repo's directory on disk
 run `npm install`  
 
 
-How to run:  
+**How to run:** 
 
 run `node app.js`  
 
